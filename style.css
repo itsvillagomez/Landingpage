@@ -1,0 +1,52 @@
+@import url(//fonts.googleapis.com/css?family=Open+Sans);
+
+.flex-container {
+   display: flex; 
+   padding: 30px;
+   flex-direction: column;
+   
+   
+   
+}
+
+/* this selector selects all divs inside of .flex-container */
+.flex-container div {
+  background: #1f2937;
+  border: 2px solid rgb(0, 0, 0);
+  height: 100px;
+  flex: 1 1 auto;
+  padding: 20px;
+  border-radius: 25% 10%;
+  margin: 20px;
+
+}
+
+
+.flex-container .header{
+  color: white;
+}
+.flex-container .one{
+
+  color: white;
+  text-align: center;
+}
+.flex-container .two{
+  background-color: rgba(255, 255, 255, 0.874);
+  text-align: center;
+  text-transform: capitalize;
+
+}
+.flex-container .three{
+ background-color: #e5e7eb;
+  text-align: center;
+}
+.flex-container .four{
+  background-color: antiquewhite ;
+  text-align: center;
+}
+.flex-container .five{
+  
+  color: aliceblue;
+  text-align: center;
+  
+}
